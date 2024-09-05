@@ -12,8 +12,8 @@ public class Library {
             this.readers = new ArrayList<>();
             for (int i = 0; i < 3; i++) {
                 Shelf shelf = new Shelf();
-                shelf.addBook(new Book("Author1", "Book1", 100));
-                shelf.addBook(new Book("Author2", "Book2", 200));
+                shelf.addBook(new Book("Author1", "Book1", 50));
+                shelf.addBook(new Book("Author2", "Book2", 100));
                 shelves.add(shelf);
             }
         }
